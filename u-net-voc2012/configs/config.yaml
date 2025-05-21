@@ -1,0 +1,14 @@
+learning_rate: 0.001
+batch_size: 16
+num_epochs: 50
+image_size: 
+  height: 256
+  width: 256
+num_classes: 21
+data_path: "./data/VOC2012"
+processed_data_path: "./data/processed"
+save_model_path: "./models/checkpoints"
+log_interval: 10
+validation_split: 0.2
+optimizer: "adam"
+loss_function: "cross_entropy"
